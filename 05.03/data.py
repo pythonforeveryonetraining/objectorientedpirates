@@ -18,7 +18,7 @@ class DataLoader:
             Officer("Calypso"),
             CannonOperator("Moustache Mike")
         ]
-
+        
 class JSONDataLoader:
     def load_pirates(self):
         with open("data.json") as file:
