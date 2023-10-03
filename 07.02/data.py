@@ -10,14 +10,14 @@ class TestDataLoader:
             Pirate("Wonka Tonka", Role("Snow Queen", 8)),
             Pirate("Spartacus", Role("Gladiator", 2))
         ]
-
+        
     def load_missions(self):
         pirates = self.load_pirates()
         return [
             Mission("Sea Battle 1", pirates[:2], 100),  # First two pirates, 100 Ducats.
             Mission("Sea Battle 2", pirates, 200),      # All pirates, 200 Ducats.
         ]
-
+        
 class JSONDataLoader:
     def load_pirates(self):
         with open("data.json") as file:

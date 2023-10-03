@@ -9,7 +9,7 @@ class TestDataLoader:
             Pirate("Wonka Tonka", Role("Snow Queen", 8)),
             Pirate("Spartacus", Role("Gladiator", 2))
         ]
-
+        
 class JSONDataLoader:
     def load_pirates(self):
         with open("data.json") as file:

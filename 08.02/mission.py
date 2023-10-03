@@ -8,6 +8,6 @@ class Mission:
         self.name = name
         self.crew = crew
         self.loot = loot
-
+        
     def __str__(self):
         return f"=== Mission: {self.name}. Crew of {len(self.crew)} captured {len(self.loot)} loot items. ==="

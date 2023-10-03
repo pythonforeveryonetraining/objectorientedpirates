@@ -15,6 +15,7 @@
   "missions": [
     {"name": "Sandy Mission", "crew": ["Harry", "Isabel", "Bootstrap Bill", "Lady Joyce"], "loot": [{"currency_key": "DKT", "amount": 1080}]},
     {"name": "Operation Moca", "crew": ["Harry", "Isabel", "Four Finger Fritz", "Moustache Mike", "Calypso", "Old Jacob"], "loot": [{"currency_key": "DKT", "amount": 1920}]},
-    {"name": "Return to Rum Cay", "crew": ["Harry", "Four Finger Fritz", "Moustache Mike", "Lady Joyce", "Calypso", "Mc Scrubby"], "loot": [{"currency_key": "DKT", "amount": 1700}, {"currency_key": "GCH", "amount": 80}]}
+    {"name": "Return to Rum Cay", "crew": ["Harry", "Four Finger Fritz", "Moustache Mike", "Lady Joyce", "Calypso", "Mc Scrubby"], "loot": [{"currency_key": "DKT", "amount": 1700}, {"currency_key": "GCH", "amount": 80}]},
+    {"name": "Pearly Adventure", "crew": ["Harry", "Bootstrapp Bill", "Lady Joyce", "Calypso", "Doc Bone"], "loot": [{"currency_key": "DKT", "amount": 1724}, {"currency_key": "PRL", "amount": 60}]}
   ]
 }

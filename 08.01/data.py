@@ -12,27 +12,27 @@ class TestDataLoader:
             Pirate("Wonka Tonka", Role("Snow Queen", 8)),
             Pirate("Spartacus", Role("Gladiator", 2))
         ]
-
+        
     def load_missions(self):
         pirates = self.load_pirates()
         return [
             Mission("Sea Battle 1", pirates[:2], [LootItem(100, "DCT"), LootItem(10, "GCH")]),  # First two pirates.
             Mission("Sea Battle 2", pirates, [LootItem(50, "DCT"), LootItem(20, "GCH")]),      # All pirates.
         ]
-
+        
     def load_currencies(self):
         return {
             "DCT": Currency("Ducat", 1),
             "GCH": Currency("Gold Chain", 16)
         }
-
+        
 class JSONDataLoader:
     def load_pirates(self):
         with open("data.json") as file:
             data = json.load(file)
         pirates = [Pirate(pirate["name"], Role(pirate["title"], pirate["rank"])) for pirate in data["pirates"]]
         return pirates
-
+    
     def load_missions(self):
         with open("data.json") as file:
             data = json.load(file)
