@@ -8,8 +8,8 @@
     {"name": "Lady Joyce", "title": "Cannon Operator", "rank": 6},
     {"name": "Calypso", "title": "Officer", "rank": 7},
     {"name": "Moustache Mike", "title": "Cannon Operator", "rank": 6},
-    {"name": "Doc Bone", "title": "Doctor", "rank": 5},
     {"name": "Old Jacob", "title": "Cook", "rank": 3},
-    {"name": "Mc Scrubby", "title": "Deck Scrubber", "rank": 1}
+    {"name": "Mc Scrubby", "title": "Deck Scrubber", "rank": 1},
+    {"name": "Doc Bone", "title": "Doctor", "rank": 5}
   ]
 }
