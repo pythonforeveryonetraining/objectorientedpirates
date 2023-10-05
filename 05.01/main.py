@@ -3,7 +3,7 @@ from data import DataLoader
 loader = DataLoader()
 pirates = loader.load_pirates()
 
-ducats = 920
+ducats = 1024
 sum_of_ranks = sum(pirate.rank for pirate in pirates)
 
 for pirate in pirates:
